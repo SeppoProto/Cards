@@ -1,7 +1,6 @@
 <?php
 session_start();
 if($_SESSION['username'] == 'username') {
-
  include "connect.php";
  print("<html>");
  $conn = connect_db();
